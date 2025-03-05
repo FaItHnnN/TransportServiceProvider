@@ -41,9 +41,7 @@ class JustRide implements Service {
             return this.getFare() * distance +
                 this.getBookingFee();
         }
-
     }
-
 
     @Override
     public String toString() {
